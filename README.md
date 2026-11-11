@@ -1,10 +1,6 @@
 # CS611 - Assignment
 ## Legends: Monsters and Heroes
 ---------------------------------------------------------------------------
-Yuheng Guo
-yuhengg@bu.edu
-U93552042
-
 This is a Java game that runs in the terminal. You can choose 1 to 3 heroes and move around a 10x10 map. You can fight monsters, buy and sell items, change equipment, and get experience and gold. There are three hero classes: Warrior, Sorcerer, and Paladin.
 
 ## Files
