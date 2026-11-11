@@ -1,0 +1,11 @@
+id|name|basePrice|baseDamage|hands|damageGrowth|magicBonus|magicGrowth
+dagger|Dagger|90|38|1|12|0|0
+short_sword|Short Sword|105|43|1|12|0|0
+sword|Sword|120|52|1|12|0|0
+axe|Axe|150|60|1|12|0|0
+mace|Mace|130|50|1|12|0|0
+wand|Wand|100|35|1|12|16|9
+staff|Staff|145|48|2|12|16|10
+bow|Bow|160|58|2|12|0|0
+crossbow|Crossbow|190|68|2|12|0|0
+greatsword|Greatsword|220|82|2|12|0|0

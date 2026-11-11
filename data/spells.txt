@@ -1,0 +1,14 @@
+id|name|basePrice|requiredLevel|type|baseDamage|baseMp
+ice_blade|Ice_Blade|250|1|ICE|450|100
+snow_cannon|Snow_Cannon|500|2|ICE|650|250
+frost_blizzard|Frost_Blizzard|750|5|ICE|850|350
+arctic_storm|Arctic_Storm|700|6|ICE|800|300
+breath_of_fire|Breath_of_Fire|350|1|FIRE|450|100
+flame_tornado|Flame_Tornado|700|4|FIRE|850|300
+heat_wave|Heat_Wave|450|2|FIRE|600|150
+lava_comet|Lava_Comet|800|7|FIRE|1000|550
+hell_storm|Hell_Storm|600|3|FIRE|950|600
+lightning_dagger|Lightning_Dagger|400|1|LIGHTNING|500|150
+thunder_blast|Thunder_Blast|750|4|LIGHTNING|950|400
+electric_arrows|Electric_Arrows|550|5|LIGHTNING|650|200
+spark_needles|Spark_Needles|500|2|LIGHTNING|600|200

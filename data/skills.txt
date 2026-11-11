@@ -1,0 +1,10 @@
+id|name|class|unlockLevel|mp|cd|effectType|targetMode|multiplier|duration
+slash|Slash|WARRIOR|1|12|0|PHYSICAL|ENEMY|1.3|0
+guard|Guard|WARRIOR|1|12|2|DEFENSE|SELF|0.3|2
+power_strike|Power Strike|WARRIOR|3|25|2|PHYSICAL|ENEMY|1.7|0
+arcane_bolt|Arcane Bolt|SORCERER|1|16|0|MAGIC|ENEMY|1.45|0
+mana_shield|Mana Shield|SORCERER|1|20|3|REDUCTION|SELF|0.25|2
+frost_nova|Frost Nova|SORCERER|3|40|3|MAGIC|ALL_ENEMIES|0.7|0
+holy_strike|Holy Strike|PALADIN|1|14|0|PHYSICAL|ENEMY|1.3|0
+blessing|Blessing|PALADIN|1|18|2|DEFENSE|ALLY|0.2|3
+smite|Smite|PALADIN|5|35|2|PHYSICAL|ENEMY|1.8|0

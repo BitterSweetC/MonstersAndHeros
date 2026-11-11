@@ -1,0 +1,4 @@
+class|weapons|armor|dualWield|starterWeapon
+WARRIOR|dagger,short_sword,sword,axe,greatsword|LIGHT,MEDIUM,HEAVY|true|sword
+SORCERER|dagger,wand,staff|LIGHT|false|wand
+PALADIN|sword,mace,greatsword|LIGHT,MEDIUM,HEAVY|false|mace

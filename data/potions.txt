@@ -1,0 +1,8 @@
+id|name|basePrice|effectType|baseAmount|amountGrowth|maxRatio
+health|Health Potion|45|HEALTH|70|30|0
+mana|Mana Potion|45|MANA|45|22|0
+str|Str Potion|60|STR|0.25|0.01|0.4
+dex|Dex Potion|60|DEX|0.25|0.01|0.4
+agi|Agi Potion|60|AGI|0.25|0.01|0.4
+luck|Luck Potion|65|LUCK|0.25|0.01|0.4
+def|Def Potion|65|DEF|0.25|0.01|0.4

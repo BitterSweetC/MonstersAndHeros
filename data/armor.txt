@@ -1,0 +1,4 @@
+id|name|basePrice|defense|defenseGrowth|type
+light|LIGHT Armor|110|20|4|LIGHT
+medium|MEDIUM Armor|180|35|6|MEDIUM
+heavy|HEAVY Armor|260|55|8|HEAVY

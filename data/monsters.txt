@@ -1,0 +1,13 @@
+id|name|type|hp|damage|def|dodge|hpGrowth|damageGrowth|defGrowth|dodgeGrowth|weight|expPerLevel|goldPerLevel
+goblin_scout|Goblin Scout|GOBLIN|90|22|20|40|60|8|4|6|28|2|35
+goblin_raider|Goblin Raider|GOBLIN|105|25|24|25|66|9|5|4|28|3|40
+big_bad_wolf|BigBad-Wolf|EXOSKELETON|140|24|90|30|80|9|7|4|22|3|55
+cyrrollalee|Cyrrollalee|EXOSKELETON|150|25|100|35|86|9|8|5|22|3|58
+casper|Casper|SPIRIT|95|26|25|120|65|9|4|8|18|4|50
+andrealphus|Andrealphus|SPIRIT|100|28|28|110|68|10|4|7|18|4|53
+stone_guardian|Stone Guardian|GOLEM|175|25|110|15|95|10|8|2|15|4|70
+iron_colossus|Iron Colossus|GOLEM|200|28|130|5|105|11|10|1|15|5|80
+crimson_count|Crimson Count|VAMPIRE|115|32|45|70|75|11|5|6|10|5|80
+night_stalker|Night Stalker|VAMPIRE|100|29|35|100|66|10|4|8|10|5|75
+natsunomeryu|Natsunomeryu|DRAGON|155|38|55|40|90|12|6|5|7|6|100
+desghidorrah|Desghidorrah|DRAGON|160|40|52|35|92|13|6|4|7|6|102
