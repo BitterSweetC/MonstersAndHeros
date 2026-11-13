@@ -4,34 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9597dbf4-25ed-40a2-b99e-4c17867b1722" name="Changes" comment="" />
+    <list default="true" id="9597dbf4-25ed-40a2-b99e-4c17867b1722" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/service/BattleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/service/BattleService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000001565447636" />
-      <entry key="MS500" value="1.1035676288699852" />
-      <entry key="S2" value="2.2924115510318686" />
-      <entry key="S5" value="3.1419709538035114" />
-      <entry key="S10" value="3.534919497925592" />
-      <entry key="S30" value="3.8361868573455484" />
-      <entry key="S60" value="3.916943099555847" />
-      <entry key="M2" value="3.958179912074264" />
-      <entry key="M5" value="3.9832014461004572" />
-      <entry key="M10" value="3.991598183583326" />
-      <entry key="M15" value="3.995394009987935" />
-      <entry key="M30" value="4.1066432355759455" />
-      <entry key="H1" value="5.143765637431116" />
-      <entry key="H2" value="7.705605557794699" />
-      <entry key="H4" value="10.668332327533514" />
-      <entry key="D1" value="14.880589183011358" />
-      <entry key="W1" value="15.833293931580863" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000002" />
+      <entry key="S5" value="1.000001041294854" />
+      <entry key="S10" value="1.0020407335903263" />
+      <entry key="S30" value="1.3207581695227557" />
+      <entry key="S60" value="2.1644860113961455" />
+      <entry key="M2" value="3.310514854767652" />
+      <entry key="M5" value="4.614718541729718" />
+      <entry key="M10" value="5.237904262575087" />
+      <entry key="M15" value="5.474731150961277" />
+      <entry key="M30" value="5.728263795923982" />
+      <entry key="H1" value="5.861756988933342" />
+      <entry key="H2" value="5.931364117089352" />
+      <entry key="H4" value="6.092007472139119" />
+      <entry key="D1" value="13.10494930045894" />
+      <entry key="W1" value="20.24725797748743" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -53,29 +68,32 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.457051619013042E-4" />
-      <entry key="MS500" value="0.3258113983104332" />
-      <entry key="S2" value="1.9783432392279858" />
-      <entry key="S5" value="3.001851478244126" />
-      <entry key="S10" value="3.4621850730877655" />
-      <entry key="S30" value="3.8113212132357637" />
-      <entry key="S60" value="3.9044309531252184" />
-      <entry key="M2" value="3.9519038761964786" />
-      <entry key="M5" value="3.980686223759498" />
-      <entry key="M10" value="3.9903397696111345" />
-      <entry key="M15" value="3.9945548848536334" />
-      <entry key="M30" value="4.1062233537390185" />
-      <entry key="H1" value="5.14355454110223" />
-      <entry key="H2" value="7.70549857759977" />
-      <entry key="H4" value="10.668278002794024" />
-      <entry key="D1" value="14.88057992991708" />
-      <entry key="W1" value="15.833292603261054" />
+      <entry key="MS100" value="0.7900413118633771" />
+      <entry key="MS500" value="0.9539595505475581" />
+      <entry key="S2" value="0.9882856515007328" />
+      <entry key="S5" value="0.9952987301735716" />
+      <entry key="S10" value="0.9996858899815705" />
+      <entry key="S30" value="1.3199246977965233" />
+      <entry key="S60" value="2.164004908660857" />
+      <entry key="M2" value="3.3102290887492436" />
+      <entry key="M5" value="4.614582770395975" />
+      <entry key="M10" value="5.2378311046357995" />
+      <entry key="M15" value="5.474681029092479" />
+      <entry key="M30" value="5.728238008409355" />
+      <entry key="H1" value="5.861743903088047" />
+      <entry key="H2" value="5.93135750960521" />
+      <entry key="H4" value="6.092003516624302" />
+      <entry key="D1" value="13.104944325592427" />
+      <entry key="W1" value="20.24725670308433" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3Lk65eaTNxiJ9VWNvdEZaJeueKI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,7 +105,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -116,5 +134,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
