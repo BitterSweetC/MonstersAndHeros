@@ -8,7 +8,7 @@ import legends.entity.Party;
 import legends.utils.RandomWeights;
 
 // Creates monster groups scaled to the party
-public final class EncounterGenerator {
+public final class MhEncounterGenerator {
     public List<Monster> generate(GameConfig config, Random random, Party party) {
         int highestLevel = party.getHighestLevel();
         int[][] countWeights = { { 65, 28, 7 }, { 15, 50, 25, 10 }, { 5, 15, 45, 25, 10 } };

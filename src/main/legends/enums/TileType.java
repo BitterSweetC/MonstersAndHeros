@@ -3,5 +3,11 @@ package legends.enums;
 public enum TileType {
     BLOCKED, 
     MARKET, 
-    COMMON
+    COMMON,
+    NEXUS,
+    OBSTACLE,
+    BUSH,
+    CAVE,
+    KOULOU,
+    PLAIN
 }

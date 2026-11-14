@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9597dbf4-25ed-40a2-b99e-4c17867b1722" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/legends/entity/ValorWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/legends/factory/VWorldGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/controller/MhGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/entity/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/entity/MhGameSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/entity/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/entity/MhWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/enums/TileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/enums/TileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/factory/EncounterGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/factory/MhEncounterGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/factory/WorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/factory/MhWorldGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/legends/service/BattleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/service/BattleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/service/ExplorationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/service/ExplorationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/service/impl/ExplorationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/legends/service/impl/ExplorationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/legends/service/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +44,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000002" />
-      <entry key="S5" value="1.000001041294854" />
-      <entry key="S10" value="1.0020407335903263" />
-      <entry key="S30" value="1.3207581695227557" />
-      <entry key="S60" value="2.1644860113961455" />
-      <entry key="M2" value="3.310514854767652" />
-      <entry key="M5" value="4.614718541729718" />
-      <entry key="M10" value="5.237904262575087" />
-      <entry key="M15" value="5.474731150961277" />
-      <entry key="M30" value="5.728263795923982" />
-      <entry key="H1" value="5.861756988933342" />
-      <entry key="H2" value="5.931364117089352" />
-      <entry key="H4" value="6.092007472139119" />
-      <entry key="D1" value="13.10494930045894" />
-      <entry key="W1" value="20.24725797748743" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.000000002509546" />
+      <entry key="S60" value="1.0000690590581358" />
+      <entry key="M2" value="1.018508064227114" />
+      <entry key="M5" value="1.672462468570818" />
+      <entry key="M10" value="3.3035002570191683" />
+      <entry key="M15" value="4.483919558613403" />
+      <entry key="M30" value="6.358156253162293" />
+      <entry key="H1" value="8.510020747052518" />
+      <entry key="H2" value="12.00215623851206" />
+      <entry key="H4" value="16.488055381001757" />
+      <entry key="D1" value="30.07131694184022" />
+      <entry key="W1" value="40.38229701763454" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,23 +80,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7900413118633771" />
-      <entry key="MS500" value="0.9539595505475581" />
-      <entry key="S2" value="0.9882856515007328" />
-      <entry key="S5" value="0.9952987301735716" />
-      <entry key="S10" value="0.9996858899815705" />
-      <entry key="S30" value="1.3199246977965233" />
-      <entry key="S60" value="2.164004908660857" />
-      <entry key="M2" value="3.3102290887492436" />
-      <entry key="M5" value="4.614582770395975" />
-      <entry key="M10" value="5.2378311046357995" />
-      <entry key="M15" value="5.474681029092479" />
-      <entry key="M30" value="5.728238008409355" />
-      <entry key="H1" value="5.861743903088047" />
-      <entry key="H2" value="5.93135750960521" />
-      <entry key="H4" value="6.092003516624302" />
-      <entry key="D1" value="13.104944325592427" />
-      <entry key="W1" value="20.24725670308433" />
+      <entry key="MS100" value="8.813044406265232E-5" />
+      <entry key="MS500" value="0.15453440761511894" />
+      <entry key="S2" value="0.6269837685858908" />
+      <entry key="S5" value="0.8296645218481976" />
+      <entry key="S10" value="0.9108592217506488" />
+      <entry key="S30" value="0.9693570078226137" />
+      <entry key="S60" value="0.9846282863649326" />
+      <entry key="M2" value="1.0107399833931416" />
+      <entry key="M5" value="1.669045002219755" />
+      <entry key="M10" value="3.301397796833459" />
+      <entry key="M15" value="4.4823264581199815" />
+      <entry key="M30" value="6.357194680645069" />
+      <entry key="H1" value="8.509376420194586" />
+      <entry key="H2" value="12.001661189986828" />
+      <entry key="H4" value="16.487705811951976" />
+      <entry key="D1" value="30.07123028150006" />
+      <entry key="W1" value="40.382283157120646" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{

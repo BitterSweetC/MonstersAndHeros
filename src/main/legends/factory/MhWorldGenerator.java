@@ -4,12 +4,12 @@ import java.util.*;
 
 import legends.entity.Market;
 import legends.entity.Party;
-import legends.entity.World;
+import legends.entity.MhWorld;
 import legends.enums.TileType;
 import legends.service.MarketService;
 
 // Generates the map grid ensuring all non-blocked tiles stay connected
-public final class WorldGenerator {
+public final class MhWorldGenerator {
     public static boolean connected(TileType[][] tiles) {
         int size = tiles.length, start = -1, openCount = 0;
         
@@ -38,7 +38,7 @@ public final class WorldGenerator {
         return visited.size() == openCount;
     }
 
-    public World generate(Random random, Party party, MarketService service) {
+    public MhWorld generate(Random random, Party party, MarketService service) {
         int size = 10, blocked = 15;
         TileType[][] tiles = new TileType[size][size];
         List<Integer> positions = new ArrayList<>();
@@ -88,6 +88,6 @@ public final class WorldGenerator {
         
         int spawn = openPositions.get(random.nextInt(25));
         party.position(spawn / size, spawn % size);
-        return new World(tiles, markets);
+        return new MhWorld(tiles, markets);
     }
 }

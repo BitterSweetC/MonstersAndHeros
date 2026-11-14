@@ -5,7 +5,7 @@ import java.nio.file.*;
 
 import legends.config.ConfigLoader;
 import legends.config.GameConfig;
-import legends.controller.GameController;
+import legends.controller.MhGameController;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class Main {
                     throw new IllegalArgumentException("Usage: Main [--data directory] [--seed integer] [--no-color]");
             }
             GameConfig config = new ConfigLoader().load(data);
-            new GameController(config, seed, colorEnabled).run();
+            new MhGameController(config, seed, colorEnabled).run();
         }
         catch(IOException e) {
             System.err.println("Cannot read game data: " + e.getMessage());

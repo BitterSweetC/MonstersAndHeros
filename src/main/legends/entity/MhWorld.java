@@ -5,12 +5,12 @@ import java.util.*;
 import legends.enums.TileType;
 
 // The game map tile grid plus market references
-public final class World {
+public final class MhWorld {
     private final int size;
     private final TileType[][] tiles;
     private final Map<Integer, Market> markets;
 
-    public World(TileType[][] tiles, Map<Integer, Market> markets) {
+    public MhWorld(TileType[][] tiles, Map<Integer, Market> markets) {
         this.size = tiles.length;
         this.tiles = tiles;
         this.markets = new LinkedHashMap<>(markets);

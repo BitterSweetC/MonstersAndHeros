@@ -3,22 +3,22 @@ package legends.entity;
 import java.util.*;
 
 import legends.config.GameConfig;
-import legends.factory.WorldGenerator;
+import legends.factory.MhWorldGenerator;
 import legends.service.MarketService;
 import legends.service.impl.MarketServiceImpl;
 
 /** Everything that makes up one game session  */
-public final class GameSession {
+public final class MhGameSession {
     private final GameConfig config;
     private final Random random;
     private final MarketService markets;
     private final SessionStatistics statistics = new SessionStatistics();
     private Party party;
-    private World world;
+    private MhWorld mhWorld;
     private Battle battle;
     private int victories;
 
-    public GameSession(GameConfig config, long seed) {
+    public MhGameSession(GameConfig config, long seed) {
         this.config = config;
         random = new Random(seed);
         markets = new MarketServiceImpl(config, random, statistics);
@@ -30,13 +30,13 @@ public final class GameSession {
             statistics.register(hero);
             markets.starter(hero);
         }
-        world = new WorldGenerator().generate(random, party, markets);
+        mhWorld = new MhWorldGenerator().generate(random, party, markets);
     }
 
     public void victory() {
         victories++;
         if(victories % 5 == 0)
-            for(Market market : world.getMarkets())
+            for(Market market : mhWorld.getMarkets())
                 markets.restock(market, party.getHighestLevel());
     }
 
@@ -60,8 +60,8 @@ public final class GameSession {
         return party;
     }
 
-    public World getWorld() {
-        return world;
+    public MhWorld getWorld() {
+        return mhWorld;
     }
 
     public Battle getBattle() {

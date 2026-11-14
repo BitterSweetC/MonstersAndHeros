@@ -9,7 +9,7 @@ import java.util.function.Function;
 import legends.config.GameConfig;
 import legends.entity.Battle;
 import legends.entity.Combatant;
-import legends.entity.GameSession;
+import legends.entity.MhGameSession;
 import legends.entity.Hero;
 import legends.entity.ItemInstance;
 import legends.entity.Market;
@@ -29,7 +29,7 @@ import legends.service.impl.DamageCalculatorServiceImpl;
 /**
  * Main game loop. Routes between setup, exploration, battle, and market states.
  */
-public final class GameController {
+public final class MhGameController {
     private static final String RESET = "\u001B[0m";
     private static final String RED = "\u001B[31m";
     private static final String GREEN = "\u001B[32m";
@@ -41,11 +41,11 @@ public final class GameController {
     private final Scanner scanner = new Scanner(System.in);
     private final boolean colorEnabled;
     private final ExplorationService exploration;
-    private GameSession session;
+    private MhGameSession session;
     private GameState state = GameState.SETUP;
     private Hero marketHero;
 
-    public GameController(GameConfig config, long seed, boolean colorEnabled) {
+    public MhGameController(GameConfig config, long seed, boolean colorEnabled) {
         this.config = config;
         this.seed = seed;
         this.colorEnabled = colorEnabled;
@@ -103,7 +103,7 @@ public final class GameController {
 
     private void setup() {
         finishSession();
-        session = new GameSession(config, seed);
+        session = new MhGameSession(config, seed);
         int heroCount = number("Number of heroes", 1, 3);
         List<HeroTto> available = new ArrayList<>(config.getHeroTtos());
         List<Hero> heroes = new ArrayList<>();

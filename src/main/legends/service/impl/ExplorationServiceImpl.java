@@ -1,21 +1,21 @@
 package legends.service.impl;
 
 import legends.entity.Battle;
-import legends.entity.GameSession;
+import legends.entity.MhGameSession;
 import legends.entity.Hero;
 import legends.enums.TileType;
-import legends.factory.EncounterGenerator;
+import legends.factory.MhEncounterGenerator;
 import legends.service.ExplorationService;
 import legends.utils.RandomWeights;
 
 public class ExplorationServiceImpl implements ExplorationService {
     @Override
-    public String entered(GameSession session) {
+    public String entered(MhGameSession session) {
         if(session.getWorld().getTile(session.getParty().getRow(), session.getParty().getCol()) != TileType.COMMON)
             return "";
         double roll = session.getRandom().nextDouble();
         if(roll < 0.35) {
-            session.setBattle(new Battle(session.getParty(), new EncounterGenerator().generate(session.getConfig(), session.getRandom(), session.getParty()), session.getStatistics()));
+            session.setBattle(new Battle(session.getParty(), new MhEncounterGenerator().generate(session.getConfig(), session.getRandom(), session.getParty()), session.getStatistics()));
             return "Monsters appeared!";
         }
         if(roll >= 0.35 + 0.15)

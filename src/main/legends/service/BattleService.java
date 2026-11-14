@@ -14,7 +14,7 @@ public interface BattleService {
     /**
      * Performs a normal attack, wears the equipped weapons, and spends one hero action; returns the combat
      * log.
-     */////////sssss
+     */
     List<String> attack(Battle battle, Hero hero, Monster monster);
 
     /**
